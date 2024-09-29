@@ -1,0 +1,11 @@
+.dashboard-image-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  

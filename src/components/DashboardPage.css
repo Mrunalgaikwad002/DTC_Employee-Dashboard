@@ -1,0 +1,132 @@
+.dashboard-title{
+    color: #0da5f7;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: start;
+    text-decoration: none;
+  }
+  .dashboard-container {
+    padding: 20px;
+  }
+  .bus-card {
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #5f04fc !important; /* Force background color */
+    color: white;
+    padding: 16px;
+    margin-bottom: 40px;
+    margin-top: 20PX;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    position: relative;
+    overflow: hidden;
+  }
+  .bus-card :hover{
+    color: white;
+    transition: background-color 0.3s ease;
+    transform: scale(1.05);
+  
+  }
+  
+  .route-card {
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #06f712 !important; /* Force background color */
+    color: white;
+    padding: 16px;
+    margin-bottom: 40px;
+    margin-top: 20PX;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    position: relative;
+    overflow: hidden;
+  }
+  .route-card :hover{
+    color: white;
+    transition: background-color 0.3s ease;
+    transform: scale(1.05);
+  }
+  
+  .crew-card {
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #fb8a00fb !important; /* Force background color */
+    color: white;
+    padding: 16px;
+    margin-bottom: 40px;
+    margin-top: 20PX;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .crew-card :hover{
+    color: white;
+    transition: background-color 0.3s ease;
+    transform: scale(1.05);
+  }
+  
+  .performance-card {
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #c90beb !important; /* Force background color */
+    color: white;
+    padding: 16px;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .performance-card :hover{
+    color: white;
+    transition: background-color 0.3s ease;
+    transform: scale(1.05);
+  }
+  
+  .feedback-card {
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #ed0c09 !important; /* Force background color */
+    color: white;
+    padding: 16px;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .feedback-card :hover {
+    color: white;
+    transition: background-color 0.3s ease;
+    transform: scale(1.05);
+  }
+  
+  
+  

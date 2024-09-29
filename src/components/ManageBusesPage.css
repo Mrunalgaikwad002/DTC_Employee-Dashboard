@@ -1,0 +1,130 @@
+.bus-manage {
+  padding: 20px;
+
+}
+h1{
+  font-size: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: left;
+  font-weight: bold;
+}
+
+.search-filter {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+
+}
+
+.search-input {
+  padding: 8px;
+  font-size: 16px;
+  width: 200px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  color: #091010;
+  background-color: darkgray;
+}
+.filter-select {
+  padding: 8px;
+  font-size: 16px;
+  color: #091010;
+  width: 200px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: darkgray;
+}
+.add{
+  display: flex;
+  justify-content: flex-end;
+}
+.add-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+ 
+}
+.ac{
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background-color: darkgray;
+  border-radius: 15px;
+  
+}
+.in{
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background-color: darkgray;
+  border-radius: 15px;
+  
+}
+.status-summary {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 3px;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+
+  
+}
+
+.bus-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bus-table th, .bus-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.bus-table th {
+  background-color: #9097e1;
+}
+
+.bus-table tr:nth-child(even) {
+  background-color: #b9a7d8;
+}
+
+.add-bus-form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 500px;
+  border-radius: 15px;
+  
+}
+
+.add-bus-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+  background-color: darkgray;
+  color: #4007fb
+
+}
+
+.add-bus-form button {
+  background-color: #1976d2;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}

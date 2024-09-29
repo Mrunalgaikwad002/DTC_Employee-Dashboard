@@ -1,0 +1,143 @@
+/* General page styling */
+.manage-driver {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Search and filter section */
+.search-filter-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+   padding: 8px;
+  font-size: 16px;
+  width: 250px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  color: #434949;
+  background-color: rgb(218, 216, 216);
+}
+
+.filter-select {
+  padding: 8px;
+  font-size: 16px;
+  width: 200px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  color: #434949;
+  background-color: rgb(218, 216, 216);
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #010509;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Add Driver Button Styling */
+.add-driver-button {
+  display: flex;
+  align-items: center;
+  background-color: #010509;
+}
+
+.add-driver-button .add-icon {
+  margin-right: 8px;
+}
+
+.add-driver-button:hover {
+  background-color: #218838;
+}
+
+/* Table Styling */
+.driver-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.driver-table th, .driver-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.driver-table th {
+  background-color: #9097e1;
+  color: #333;
+}
+
+.driver-table tr:nth-child(even) {
+  background-color: #b9a7d8;
+}
+
+.driver-table tr:hover {
+  background-color: #f1f1f1;
+}
+.add-driver-form{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 500px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+h2{
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  margin-top: 20px;
+  color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .search-filter-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search-bar {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .filter-select {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}

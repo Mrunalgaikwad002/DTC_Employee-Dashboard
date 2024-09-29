@@ -1,0 +1,38 @@
+/* Sidebar container styles */
+.sidebar-drawer {
+    width: 240px;
+    flex-shrink: 0;
+  }
+  
+  
+  .sidebar-drawer .MuiDrawer-paper {
+    background:rgb(2, 0, 9);
+}
+  .sidebar-box {
+    overflow: auto;
+    margin-top: 24px;
+    width: 240px;
+  }
+  
+  .sidebar-item {
+    transition: background-color 0.3s;
+    border-radius: 8px;
+  }
+  
+  .sidebar-item:hover {
+    border: none;
+    cursor: pointer;
+    background-color: #46718a;
+  }
+  
+ 
+  .sidebar-icon {
+    color: #1976d2;
+  }
+  
+  
+  .MuiListItemText-root {
+    font-size: 16px;
+    color: #f9f9f9; 
+  }
+  
